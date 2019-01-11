@@ -40,8 +40,8 @@ replica_set:
 ```yaml
 cluster_role:           "shard"
 replica_set:
-  name:                 "my-shd0"             # name of the replica set for the shard server (prefix of fqdn)
-  group:                "my-shd0-servers"     # group name for all servers in the replica set
+  name:                 "db-data"             # name of the replica set for the shard server (prefix of fqdn)
+  group:                "db-data-servers"     # group name for all servers in the replica set
 ```
 
 ## Flags and Variables
